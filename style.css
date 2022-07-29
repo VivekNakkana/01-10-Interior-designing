@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    outline: 0px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+body{
+    background-image: url(./images/retro-living-room-interior-design-min.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 4rem;
+    margin-right: 6rem;
+    align-items: baseline;
+}
+.list-item,.phone{
+    cursor: pointer;
+}
+.phone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    font-size: 12px;
+}
+.fa-phone{
+    font-size: 22px;
+    margin-right: 3px;
+}
+
+.logo{
+    font-size: 30px;
+    margin-left: 4rem;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.left{
+    margin-left: 6rem;
+    margin-top: 4rem;
+}
+.heading{
+    font-size: 40px;
+    font-weight: 700;
+}
+button{
+    cursor: pointer;
+    margin-top: 3rem;
+    background-color: transparent;
+    font-size: 24px;
+    padding: 12px 34px;
+    font-weight: 700;
+    border-radius: 32px;
+    border: 2px solid #ffffff;
+    
+}
+button:hover{
+    color: #22225a;
+    background-color: #ffffff;
+    transition: .30s ease-in-out;
+}
+
+.right{
+    position: relative;
+}
+.square{
+    position: absolute;
+    right: 0px;
+    width: 230px;
+    background-color: #e8dede3c;
+    height: 100px;
+    padding: 20px;
+}
+.square i{
+    font-size: 28px;
+    color: #1d1d1d;
+    background-color:#ffffff ;
+    padding: 4px 26px;
+    border-radius: 18px;
+    margin-bottom: 20px;
+}
+.puzzle{
+    top: 3rem;
+    margin-right: 120px;
+}
+
+.idea{
+    margin-right: 500px;
+    top: 250px;
+    height: 120px;
+}
+.puzzle .circle-line{
+    position: absolute;
+    background-color:#e8dede3c ;
+    height: 80px;
+    width: 2px;
+    right: 80px;
+    top: 8.8rem;
+}
+.puzzle .circle{
+    position: absolute;
+    background-color: #ffffff;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    top: 4rem;
+    right:-9px;
+}
+.idea .circle-line{
+    position: absolute;
+    background-color:#e8dede3c ;
+    height: 2px;
+    width: 80px;
+    top: 3rem;
+    right: -80px;
+}
+.idea .circle{
+    position: absolute;
+    background-color: #ffffff;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    left: 65px;
+    top: -9px;
+}
