@@ -246,7 +246,7 @@ button:hover{
         justify-content: center;
         align-items: center;
         gap: 2rem;
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
     }
     .square{
         position: static;
@@ -259,5 +259,8 @@ button:hover{
     }
     body{
         height: 100%;
+    }
+    .circle, .circle-line{
+        display: none;
     }
 }
